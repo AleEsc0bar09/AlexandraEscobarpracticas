@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Reserva de Viaje</title>
+</head>
+
+<body>
+
+<h2>Formulario de Reserva de Viaje</h2>
+
+<form>
+<h3>Datos personales</h3>
+
+<label>Nombre:</label>
+<br>
+<input type="text" name="nombre">
+<br><br>
+<label>Correo electrónico:</label>
+<br>
+<input type="email" name="correo" placeholder="example@email.com">
+<br><br>
+<label>Teléfono:</label><br>
+<input type="tel" name="telefono">
+<br><br>
+
+<h2>Datos del viaje</h2>
+
+<label>Número de acompañantes:</label>
+<br>
+<input type="number" name="acompanantes" min="1" max="5" step="1">
+<br><br>
+
+<label>Lugar de origen:</label>
+<br>
+<input type="text" name="origen" value="San Salvador" readonly>
+<br><br>
+
+<label>Lugar de destino:</label>
+<br>
+<select name="destino">
+<option value="Lauterbrunnen">Lauterbrunnen</option>
+<option value="Florencia">Florencia</option>
+<option value="Barcelona">Barcelona</option>
+<option value="Venecia">Venecia</option>
+</select>
+<br><br>
+
+<label>Fecha de salida:</label>
+<br>
+<input type="date" name="salida">
+<br><br>
+
+<label>Fecha de regreso:</label>
+<br>
+<input type="date" name="regreso">
+<br><br>
+<input type="submit" value="Reservar">
+
+</form>
+
+</body>
+</html>
