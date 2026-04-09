@@ -185,13 +185,13 @@ justify-content: center;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-gap: 10px;
+gap: 15px;
 align-content: center;
-justify-content: center
+justify-content: center;
 
 }
 
-.galeria img {
+.contenedor-galeria img{
 width: 30%;
 height: 300px;
 object-fit: cover;
