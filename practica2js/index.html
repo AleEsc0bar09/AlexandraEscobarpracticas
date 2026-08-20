@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 2</title>
+</head>
+<body>
+    <script>
+        //Declare variables
+        let nota1, nota2, nota3, nombreCompleto;
+
+        //Use prompt para pedir info
+        //y guarde las variables
+        nota1 = Number(prompt("Porfis ingrese la primera nota: "));
+        nota2 = Number(prompt("Porfis ingrese la segunda nota: "));
+        nota3 = Number(prompt("Porfis ingrese la tercera nota: "));
+        nombreCompleto = prompt("Porfis ingrese el nombre: ");
+
+        //Realice la operación
+        let promedio = (nota1*0.30) + (nota2*0.35) + (nota3*0.35);
+
+        //Muestre el resultado con un documento.write
+        document.write("La nota final de " + nombreCompleto + " es " + promedio);
+    </script>
+</body>
+</html>
